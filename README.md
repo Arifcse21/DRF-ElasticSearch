@@ -1,2 +1,2 @@
-# Django-Solr-Search
-Solr full text search engine with django and haystack
+# Django-ElasticSearch
+Full Text Search with DjangoREST framework and Elasticsearch
