@@ -13,6 +13,7 @@ BUILTIN_APPS = [
 PROJECTS_APPS = [
     'ecomm.apps.EcommConfig',
     'elk_search.apps.ElkSearchConfig',
+    'rest_framework',
 ]
 
 INSTALLED_APPS = BUILTIN_APPS + PROJECTS_APPS
