@@ -40,6 +40,7 @@ class ProductAdmin(admin.ModelAdmin):
         "created_at",
         "modified_at"
     ]
+    list_display_links = ['title']
 
 
 @admin.register(Cart)
