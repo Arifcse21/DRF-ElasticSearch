@@ -11,6 +11,7 @@ BUILTIN_APPS = [
 ]
 
 PROJECTS_APPS = [
+    'django_elasticsearch_dsl',
     'ecomm.apps.EcommConfig',
     'elk_search.apps.ElkSearchConfig',
     'rest_framework',

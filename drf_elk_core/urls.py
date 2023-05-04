@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/elk/search/', include('elk_search.urls'))
+    path('api/v1/elk/', include('elk_search.urls'))
 ]
